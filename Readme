@@ -1,0 +1,27 @@
+	=================================
+	|| Bitcoin Venezuela Extension ||
+	=================================
+
+A Chrome extension/plugin that modifies Coinbase's dashboard and send web pages to add market prices of Bitcoin in VEF (Bolívar).
+
+Purpose: to help Venezuelan users and contribute with Bitcoin adoption.
+
+Todo list:
+
+0.- Plugin was made using the web version of Coinbase. Responsive design wasn't considered. Plugin must be fixed to "survive" changes on tablet/mobile screen sizes
+
+1.- After clicking button to Send Funds, form modifications are lost due to DOM changes, even when hitting back. Confirmation amount should also contain VEF amount as primary.
+
+2.- Add ETH exchange rates
+
+3.- Add angular real time field binding instead of basic JS binding
+
+4.- Check code: development was made and first working version was released. Code isn't optimised neither comes from an experienced front end developer. Also lack of financing makes it hard to release a "near perfection" version
+
+5.- Transactions log/history in VEF isn't implemented
+
+6.- When user adds VEF amount and it get's transformed to BTC, it should also format the VEF input if the user didn't input decimal separator and two decimals
+
+
+
+	ZorroLibertario
